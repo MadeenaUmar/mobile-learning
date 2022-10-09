@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40911D"
+    tools:context=".Java" >
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp" />
+
+    <Button
+        android:id="@+id/btnJavaPDF"
+        android:layout_width="252dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/read_pdf" />
+
+    <Button
+        android:id="@+id/btnJavaTest"
+        android:layout_width="252dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="49dp"
+        android:text="Take Quiz" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="318dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/java_programming"
+        android:textColor="#F6ECEC" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Adult M Learning</string>
+    <string name="read_pdf">Read PDF</string>
+    <string name="java_programming">Java programming language was originally developed by Sun Microsystems which was initiated by James Gosling and released in 1995 as core component of Sun Microsystems\' Java platform (Java 1.0 [J2SE]).</string>
+    <string name="html5">HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web. HTML5 is a cooperation between the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG).</string>
+    <string name="python">Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.</string>
+    <string name="php">PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e- commerce sites.</string>
+</resources>

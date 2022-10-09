@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.automata">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Automata">
+        <activity android:name=".query"></activity>
+        <activity android:name=".ResultPHP" />
+        <activity android:name=".PHPTest" />
+        <activity android:name=".PDFPHP" />
+        <activity android:name=".PHP" />
+        <activity android:name=".ResultPython" />
+        <activity android:name=".PythonTest" />
+        <activity android:name=".PDFPython" />
+        <activity android:name=".Python" />
+        <activity android:name=".ResultHTML" />
+        <activity android:name=".HTMLTest" />
+        <activity android:name=".PDFHTML" />
+        <activity android:name=".HTML" />
+        <activity android:name=".Menu" />
+        <activity android:name=".PDFJava" />
+        <activity android:name=".Java" />
+        <activity android:name=".ResultJava" />
+        <activity android:name=".DeveloperActivity">
+            <intent-filter>
+                <action android:name="com.example.vikasojha.quizbee.DeveloperActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JavaTest">
+            <intent-filter>
+                <action android:name="com.example.vikasojha.quizbee.QuestionsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
